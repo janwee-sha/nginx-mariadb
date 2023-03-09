@@ -121,7 +121,7 @@ stream {
 然后将nginx主机名 `janwee.ubuntu` 加入本地DNS配置文件 `/etc/hosts`中，在Linux终端中使用如下命令：
 
 ```
-sudo echo "127.0.0.1 db.abhizer.local" >> /etc/hosts
+echo "127.0.0.1 db.janwee.ubuntu" >> /etc/hosts
 ```
 
 在`docker-compose.yml`所在目录下运行如下命令启动容器组：
