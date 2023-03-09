@@ -124,6 +124,12 @@ stream {
 sudo echo "127.0.0.1 db.abhizer.local" >> /etc/hosts
 ```
 
+在`docker-compose.yml`所在目录下运行如下命令启动容器组：
+
+```
+docker compose up -d
+```
+
 测试连接到3306端口并使用 `SELECT @@hostname;`查询当前主机名：
 
 ```
