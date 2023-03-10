@@ -12,7 +12,7 @@
 - 横向扩展比纵向扩展更简单
 
 ## Let's Do It
-我将使用Docker Compose在Linux系统中部署多个MySQL节点和一个NGINX节点。Docker Compose启动文件`docker-compose.yml`如下：
+我将使用[Docker Compose](https://docs.docker.com/compose/compose-file/)在Linux系统中部署多个MySQL节点和一个NGINX节点。Docker Compose启动文件`docker-compose.yml`如下：
 
 ```
 version: '3.8'
